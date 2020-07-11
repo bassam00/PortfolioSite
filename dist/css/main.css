@@ -251,16 +251,13 @@ img {
 }
 #main-footer .footer-content .social .fa {
   margin-right: 1rem;
-  border: 2px #fff solid;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
   text-align: center;
   padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 #main-footer .footer-content .social .fa:hover {
-  background-color: #ffbc00;
+  color: #ffbc00;
 }
 
 /*# sourceMappingURL=main.css.map */
