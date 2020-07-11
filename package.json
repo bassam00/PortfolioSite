@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --rescursive"
+    "sass": "sass --watch scss/main.scss dist/css/main.css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10"
   }
 }
